@@ -184,7 +184,7 @@ nav {
     width: 90px;
     border-radius: 50%;
     margin: 15px;
-    border: 3px solid white;
+    border: 1px solid white;
     transition: transform 0.3s;
 }
 
@@ -242,6 +242,7 @@ h3 {
     font-style: italic;
 }
 
+
 /* PÁGINA INICIAL */
 .centro {
     display: flex;
@@ -252,7 +253,7 @@ h3 {
 }
 
 .centro img {
-    width: 200px;
+    width: 300px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
@@ -278,12 +279,12 @@ h3 {
     background: #1e2d18;
     padding: 10px 25px;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 26px;
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
-    height: 40px;
-    width: 130px;
+    height: 60px;
+    width: 180px;
     margin-top: 20px;
     transition: background 0.3s;
     transition: 500ms;
@@ -293,9 +294,9 @@ h3 {
     background: #d6993f;
     color: #1e2d18;
     cursor: pointer;
-    height: 50px;
-    width: 150px;
-    transition: 500ms;
+    height: 70px;
+    width: 200px;
+    transition: 300ms;
 }
 
 main {
@@ -371,10 +372,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .descricao {
-    color: #976c2b;
+    color: #fff;
     font-size: 24px;
     text-align: left;
     margin-top: 10px;
+    margin-left: 30px;
     font-style: italic;
 }
 
@@ -400,6 +402,12 @@ body::-webkit-scrollbar-thumb {
     transition: 200ms;
 }
 
+.foto-pequena{
+    padding-top: 20px;
+    max-width: 80px; /* alterado de width para max-width */
+    width: 100%;
+}
+
 /* RESPONSIVIDADE */
 @media (max-width: 900px) {
     header {
@@ -416,6 +424,7 @@ body::-webkit-scrollbar-thumb {
     }
     h1 {
         font-size: 32px;
+        margin-top: -30px;
     }
     h2 {
         font-size: 24px;
@@ -433,7 +442,7 @@ body::-webkit-scrollbar-thumb {
         bottom: 10px;
     }
     .logolema {
-        width: 120px;
+        width: 170px;
         right: 10px;
         bottom: 10px;
     }
@@ -441,9 +450,9 @@ body::-webkit-scrollbar-thumb {
         padding: 30px 8px;
     }
     .botao {
-        font-size: 16px;
-        width: 110px;
-        height: 36px;
+        font-size: 26px;
+        height: 60px;
+        width: 180px;
         padding: 8px 12px;
     }
     .botao:hover {
@@ -452,7 +461,11 @@ body::-webkit-scrollbar-thumb {
         font-size: 18px;
     }
     .centro img {
-        width: 120px;
+        width: 250px;
+    }
+
+    .foto-pequena {
+        max-width: 10%;
     }
 }
 
@@ -468,7 +481,7 @@ body::-webkit-scrollbar-thumb {
         padding: 2px 2px;
     }
     .foto-menu img {
-        width: 40px;
+        width: 45px;
         margin: 2px;
     }
     .foto-menu {
@@ -476,6 +489,12 @@ body::-webkit-scrollbar-thumb {
         left: 50%;
         transform: translate(-50%, -60%);
     }
+
+    .foto-pequena{
+    padding-top: 10px;
+    max-width: 10%;
+}
+
     h1 {
         font-size: 20px;
         margin-top: 20px;
@@ -508,7 +527,7 @@ body::-webkit-scrollbar-thumb {
         bottom: 2px;
     }
     .logolema {
-        width: 60px;
+        width: 150px;
         right: 2px;
         bottom: 2px;
     }
@@ -516,9 +535,9 @@ body::-webkit-scrollbar-thumb {
         padding: 16px 2px;
     }
     .botao {
-        font-size: 12px;
-        width: 80px;
-        height: 28px;
+        font-size: 26px;
+        height: 60px;
+        width: 180px;
         padding: 4px 6px;
     }
     .botao:hover {
@@ -527,7 +546,7 @@ body::-webkit-scrollbar-thumb {
         font-size: 13px;
     }
     .centro img {
-        width: 70px;
+        width: 200px;
     }
     main {
         margin-top: 70px;
@@ -539,4 +558,10 @@ body::-webkit-scrollbar-thumb {
     nav a:hover, .nav-item.active {
         font-size: 15px;
     }
+    .descricao {
+        margin-left: 30px;
+    }
+    .centro h1 {
+    text-align: center;
+}
 }
