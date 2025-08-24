@@ -1,0 +1,9 @@
+body {
+    background-color: #2b4021;
+    background-image: url('../img/Lovepik_com-380415259-sketch-style-coffee-leaf-lush-foliage-food-raw-material-illustration-coffee-leaf-food-materials.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 850px;
+    backdrop-filter: blur(4px);
+    font-family: Arial, sans-serif;
+}

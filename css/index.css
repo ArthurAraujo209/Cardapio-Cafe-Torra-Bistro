@@ -1,0 +1,542 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+/* RESET */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background-color: #2b4021;
+    font-family: "Poppins", sans-serif;
+}
+
+.folha {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    width: 400px;
+    z-index: 0;
+}
+
+.logolema {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    z-index: 1;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 120px;
+    background-color: #1e2d18;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* NAV */
+nav {
+    margin-top: 110px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #1e2d18;
+    height: 80px;
+    z-index: 999;
+}
+
+/* LOGO DO NAV */
+.foto-menu {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -120%);
+    z-index: 1001;
+}
+
+.foto-menu img {
+    width: 90px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 3px solid white;
+    transition: transform 0.3s;
+}
+
+.foto-menu img:hover {
+    transform: scale(1.1);
+}
+
+/* LINKS DO MENU */
+nav a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s;
+    transition: 500ms;
+}
+
+nav a:hover {
+    color: #d6993f;
+    font-size: 24px;
+    transition: 500ms;
+}
+
+/* SEÇÕES */
+section {
+    scroll-margin-top: 200px;
+    /* evita sumir atrás do header/nav */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #d6993f;
+    font-size: 36px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #976c2b;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* PÁGINA INICIAL */
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.centro img {
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: transform 0.3s;
+}
+
+.centro img:hover {
+    transform: scale(1.1);
+}
+
+.centro h1 {
+    font-size: 36px;
+    color: white;
+    margin-top: 20px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #1e2d18;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    margin-top: 20px;
+    transition: background 0.3s;
+    transition: 500ms;
+}
+
+.botao:hover {
+    background: #d6993f;
+    color: #1e2d18;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    transition: 500ms;
+}
+
+main {
+    margin-top: 150px;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity: 1;
+    transition: all 0.8s;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+/* SCROLLBAR ESTILIZADA */
+
+
+
+
+
+body {
+    --sb-track-color: #1e2d18;
+    --sb-thumb-color: #2b4021;
+    --sb-size: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border: 0px solid #232e33;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    }
+}
+
+
+.produto {
+  display: flex;
+  align-items: center;
+  margin: 6px 0 2px 0;
+}
+
+
+.produto .nome {
+    color: #d6993f;
+    font-size: 36px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.produto .preco {
+    color: #d6993f;
+    font-size: 36px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.descricao {
+    color: #976c2b;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.produto .pontinhos {
+  flex-grow: 1;
+  border-bottom: 5px dotted #d6993f;
+  margin: 0 10px;
+  height: 1px;
+  margin-top: 20px;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+      transition: 200ms;
+}
+
+.nav-item.active {
+    color: #d6993f;
+    font-size: 24px;
+    transition: 200ms;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 900px) {
+    header {
+        height: 90px;
+    }
+    nav {
+        margin-top: 80px;
+        height: 60px;
+        padding: 6px 10px;
+    }
+    .foto-menu img {
+        width: 65px;
+        margin: 8px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3, .descricao {
+        font-size: 18px;
+    }
+    .produto .nome,
+    .produto .preco {
+        font-size: 24px;
+    }
+    .folha {
+        width: 220px;
+        left: 10px;
+        bottom: 10px;
+    }
+    .logolema {
+        width: 120px;
+        right: 10px;
+        bottom: 10px;
+    }
+    section {
+        padding: 30px 8px;
+    }
+    .botao {
+        font-size: 16px;
+        width: 110px;
+        height: 36px;
+        padding: 8px 12px;
+    }
+    .botao:hover {
+        width: 120px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .centro img {
+        width: 120px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 60px;
+    }
+    nav {
+        margin-top: 55px;
+        height: 45px;
+        flex-wrap: wrap;
+        gap: 2px;
+        padding: 2px 2px;
+    }
+    .foto-menu img {
+        width: 40px;
+        margin: 2px;
+    }
+    .foto-menu {
+        top: -50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+    }
+    h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    h2 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    h3, .descricao {
+        font-size: 13px;
+        margin-top: 6px;
+    }
+    .produto, .descricao {
+        margin: 5px;
+    }
+    .produto .nome,
+    .produto .preco {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .produto .pontinhos {
+        margin: 0 4px;
+        border-bottom-width: 3px;
+        margin-top: 10px;
+    }
+    .folha {
+        width: 90px;
+        left: 2px;
+        bottom: 2px;
+    }
+    .logolema {
+        width: 60px;
+        right: 2px;
+        bottom: 2px;
+    }
+    section {
+        padding: 16px 2px;
+    }
+    .botao {
+        font-size: 12px;
+        width: 80px;
+        height: 28px;
+        padding: 4px 6px;
+    }
+    .botao:hover {
+        width: 90px;
+        height: 32px;
+        font-size: 13px;
+    }
+    .centro img {
+        width: 70px;
+    }
+    main {
+        margin-top: 70px;
+    }
+    nav a, .nav-item {
+        font-size: 12px;
+        margin: 0 2px;
+    }
+    nav a:hover, .nav-item.active {
+        font-size: 15px;
+    }
+}
