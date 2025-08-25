@@ -214,10 +214,18 @@ nav a:hover {
 section {
     scroll-margin-top: 200px;
     /* evita sumir atrás do header/nav */
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
-    padding: 50px 20px;
+    padding: 25px;
+    background-color: #3e5c30;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.primeira-sessao {
+    margin-top: 12%;
 }
 
 h1 {
@@ -493,11 +501,15 @@ body::-webkit-scrollbar-thumb {
     .foto-pequena{
     padding-top: 10px;
     max-width: 10%;
-}
+    }
+
+    .primeira-sessao{
+        margin-top: 35%;
+    }
 
     h1 {
         font-size: 20px;
-        margin-top: 20px;
+        margin-top: -10px;
         margin-left: 5px;
     }
     h2 {

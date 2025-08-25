@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
+    <!-- Metadados básicos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Torra Café-Bistrô</title>
+
+    <!-- CSS principal -->
     <link rel="stylesheet" href="css/index.css">
+
+    <!-- Google Fonts: Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -13,12 +18,17 @@
         rel="stylesheet">
 </head>
 
-
 <body>
+    <!-- =======================
+         HEADER E NAVEGAÇÃO
+    ======================== -->
     <header>
         <nav>
-            <a class="foto-menu" href="index.html"><img src="img/logo do torra.jpg" alt="logo"></a>
-
+            <!-- Logo do Torra Café-Bistrô -->
+            <a class="foto-menu" href="index.html">
+                <img src="img/logo do torra.jpg" alt="logo">
+            </a>
+            <!-- Links de navegação para as seções do cardápio -->
             <a href="#1" class="nav-item">Espressos</a>
             <a href="#2" class="nav-item">Cafés Gelados</a>
             <a href="#3" class="nav-item">Cafés ao Leite</a>
@@ -28,10 +38,15 @@
             <a href="#7" class="nav-item">Cafés Filtrados</a>
         </nav>
     </header>
-    <main>
-        <section class="hidden" id="1">
-            <h1>Espressos</h1>
 
+    <!-- =======================
+         CONTEÚDO PRINCIPAL
+    ======================== -->
+    <main>
+        <!-- ======= ESPRESSOS ======= -->
+        <section class="hidden primeira-sessao" id="1">
+            <h1>Espressos</h1>
+            <!-- Produto: Espresso Simples -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">ESPRESSO SIMPLES</span>
@@ -39,7 +54,7 @@
                 <span class="preco">R$ 6,90</span>
             </div>
             <p class="descricao">40ml de espresso feito com café especial</p>
-
+            <!-- Produto: Espresso Duplo -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">ESPRESSO DUPLO</span>
@@ -47,7 +62,7 @@
                 <span class="preco">R$ 9,50</span>
             </div>
             <p class="descricao">70ml de espresso feito com café especial</p>
-
+            <!-- Produto: Espresso Carioca -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">ESPRESSO CARIOCA</span>
@@ -55,7 +70,7 @@
                 <span class="preco">R$ 8,50</span>
             </div>
             <p class="descricao">80ml de espresso feito com café especial e diluído em água</p>
-
+            <!-- Produto: Espresso Bombom -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">ESPRESSO BOMBOM</span>
@@ -63,7 +78,7 @@
                 <span class="preco">R$ 10,90</span>
             </div>
             <p class="descricao">120ml feito com espresso, leite condensado e crema de leite</p>
-
+            <!-- Produto: Espresso Panna -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">ESPRESSO PANNA</span>
@@ -72,8 +87,11 @@
             </div>
             <p class="descricao">230ml feito com espresso e chantilly de leite</p>
         </section>
+
+        <!-- ======= CAFÉS GELADOS ======= -->
         <section class="hidden" id="2">
             <h1>Cafés Gelados</h1>
+            <!-- Produto: Affogato -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">AFFOGATO</span>
@@ -81,6 +99,7 @@
                 <span class="preco">R$ 13,90</span>
             </div>
             <p class="descricao">Sorvete, espresso e calda de chocolate</p>
+            <!-- Produto: Frappuccino -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">FRAPPUCCINO</span>
@@ -88,6 +107,7 @@
                 <span class="preco">R$ 19,50</span>
             </div>
             <p class="descricao">Espresso, sorvete, calda de chocolate e chantilly</p>
+            <!-- Produto: Espresso Tônica -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">ESPRESSO TÔNICA</span>
@@ -95,6 +115,7 @@
                 <span class="preco">R$ 14,00</span>
             </div>
             <p class="descricao">Espresso, água tônica e xarope de limão</p>
+            <!-- Produto: Iced Caramelo -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">ICED CARAMELO</span>
@@ -103,8 +124,11 @@
             </div>
             <p class="descricao">Espresso, calda de chocolate, leite espumado e gelo</p>
         </section>
+
+        <!-- ======= CAFÉS AO LEITE ======= -->
         <section class="hidden" id="3">
             <h1>Cafés ao Leite</h1>
+            <!-- Produto: Cappuccino Italiano -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CAPPUCCINO ITALIANO</span>
@@ -112,6 +136,7 @@
                 <span class="preco">R$ 11,90</span>
             </div>
             <p class="descricao">Espresso e leite vaporizado</p>
+            <!-- Produto: Cappuccino Brasilidade -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CAPPUCCINO BRASILIDADE</span>
@@ -119,6 +144,7 @@
                 <span class="preco">R$ 12,90</span>
             </div>
             <p class="descricao">Espresso, leite vaporizado, cacau e canela</p>
+            <!-- Produto: Cappuccino Avelã -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CAPPUCCINO AVELÃ</span>
@@ -126,6 +152,7 @@
                 <span class="preco">R$ 13,90</span>
             </div>
             <p class="descricao">Espresso, leite vaporizado e avelã</p>
+            <!-- Produto: Cappuccino Chocolate -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CAPPUCCINO CHOCOLATE</span>
@@ -133,6 +160,7 @@
                 <span class="preco">R$ 13,90</span>
             </div>
             <p class="descricao">Espresso, leite vaporizado e calda de chocolate</p>
+            <!-- Produto: Cappuccino Doce de Leite -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CAPPUCCINO DOCE DE LEITE</span>
@@ -140,6 +168,7 @@
                 <span class="preco">R$ 13,90</span>
             </div>
             <p class="descricao">Espresso, leite vaporizado e doce de leite</p>
+            <!-- Produto: Mocha Caramelo -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">MOCHA CARAMELO</span>
@@ -147,6 +176,7 @@
                 <span class="preco">R$ 14,90</span>
             </div>
             <p class="descricao">Caramelo, leite, crema de leite</p>
+            <!-- Produto: Mocha Chocolate -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">MOCHA CHOCOLATE</span>
@@ -155,8 +185,11 @@
             </div>
             <p class="descricao">Chocolate, leite, crema de leite</p>
         </section>
+
+        <!-- ======= OUTRAS BEBIDAS ======= -->
         <section class="hidden" id="4">
             <h1>Outras Bebidas</h1>
+            <!-- Produto: Chocolate Quente -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CHOCOLATE QUENTE</span>
@@ -164,6 +197,7 @@
                 <span class="preco">R$ 14,00</span>
             </div>
             <p class="descricao"></p>
+            <!-- Produto: Água sem Gás -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">ÁGUA SEM GÁS</span>
@@ -171,6 +205,7 @@
                 <span class="preco">R$ 3,00</span>
             </div>
             <p class="descricao"></p>
+            <!-- Produto: Água com Gás -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">ÁGUA COM GÁS</span>
@@ -178,6 +213,7 @@
                 <span class="preco">R$ 3,00</span>
             </div>
             <p class="descricao"></p>
+            <!-- Produto: Coca-Cola -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">COCA-COLA</span>
@@ -185,6 +221,7 @@
                 <span class="preco">R$ 6,50</span>
             </div>
             <p class="descricao">Lata 350ml.</p>
+            <!-- Produto: H2O -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">H2O</span>
@@ -192,6 +229,7 @@
                 <span class="preco">R$ 7,90</span>
             </div>
             <p class="descricao"></p>
+            <!-- Produto: Suco de Laranja (Copo) -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">SUCO DE LARANJA (Copo)</span>
@@ -199,6 +237,7 @@
                 <span class="preco">R$ 8,00</span>
             </div>
             <p class="descricao">Copo- 350 ml</p>
+            <!-- Produto: Suco de Laranja (Jarra) -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">SUCO DE LARANJA (Jarra)</span>
@@ -206,6 +245,7 @@
                 <span class="preco">R$ 15,00</span>
             </div>
             <p class="descricao">Jarra</p>
+            <!-- Produto: Dose de Bebida Alcóolica -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">DOSE DE BEBIDA ALCÓOLICA</span>
@@ -213,6 +253,7 @@
                 <span class="preco">R$ 18,00</span>
             </div>
             <p class="descricao">Wisky (Jamerson, Old Parr), Vodka (Absoluta, Finlandia), Amarula, Campari.</p>
+            <!-- Produto: Licor 43 -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">LICOR 43</span>
@@ -220,6 +261,7 @@
                 <span class="preco">R$ 23,00</span>
             </div>
             <p class="descricao">Dose</p>
+            <!-- Produto: Cerveja Heineken -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CERVEJA HEINEKEN</span>
@@ -227,6 +269,7 @@
                 <span class="preco">R$ 12,00</span>
             </div>
             <p class="descricao">Long neck.</p>
+            <!-- Produto: Cerveja Corona -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CERVEJA CORONA</span>
@@ -235,8 +278,11 @@
             </div>
             <p class="descricao">Long neck.</p>
         </section>
+
+        <!-- ======= DRINKS ======= -->
         <section class="hidden" id="5">
             <h1>Drinks</h1>
+            <!-- Produto: Caipirinha / Caipirosca -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CAIPIRINHA / CAIPIROSCA</span>
@@ -244,6 +290,7 @@
                 <span class="preco">R$ 11,00</span>
             </div>
             <p class="descricao">Cachaça (ou vodka), limão, gelo, xarope de açucar</p>
+            <!-- Produto: Carajillo -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CARAJILLO</span>
@@ -251,6 +298,7 @@
                 <span class="preco">R$ 23,90</span>
             </div>
             <p class="descricao">Espresso, licor 43 e gelo.</p>
+            <!-- Produto: Clericot -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CLERICOT</span>
@@ -258,6 +306,7 @@
                 <span class="preco">R$ 19,90</span>
             </div>
             <p class="descricao">Vinho branco, água com gás, frutas e gelo.</p>
+            <!-- Produto: Espanhola -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">ESPANHOLA</span>
@@ -265,6 +314,7 @@
                 <span class="preco">R$ 16,00</span>
             </div>
             <p class="descricao">Vodka, vinho, leite condensado e gelo.</p>
+            <!-- Produto: Espresso Martine -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">ESPRESSO MARTINE</span>
@@ -272,6 +322,7 @@
                 <span class="preco">R$ 17,90</span>
             </div>
             <p class="descricao">Espresso, vodka, licor de café, açúcar e gelo.</p>
+            <!-- Produto: Margarita -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">MARGARITA</span>
@@ -279,6 +330,7 @@
                 <span class="preco">R$ 18,90</span>
             </div>
             <p class="descricao">Contreau, tequila e sumo de limão.</p>
+            <!-- Produto: Negrone -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">NEGRONE</span>
@@ -286,6 +338,7 @@
                 <span class="preco">R$ 25,00</span>
             </div>
             <p class="descricao">Gin, vermute tinto, Campari e gelo.</p>
+            <!-- Produto: Tinto de Verano -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">TINTO DE VERANO</span>
@@ -293,6 +346,7 @@
                 <span class="preco">R$ 19,90</span>
             </div>
             <p class="descricao">Vinho tinto, água com gás, frutas e gelo.</p>
+            <!-- Produto: Tônica Alcóolica -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">TÔNICA ALCÓOLICA</span>
@@ -301,8 +355,11 @@
             </div>
             <p class="descricao">Espresso, vodka, xarope de limão e água tônica.</p>
         </section>
+
+        <!-- ======= CHÁS GELADOS ======= -->
         <section class="hidden" id="6">
             <h1>Chás Gelados</h1>
+            <!-- Produto: Chá Preto-Manjericão -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CHÁ PRETO-MANJERICÃO</span>
@@ -310,6 +367,7 @@
                 <span class="preco">R$ 13,00</span>
             </div>
             <p class="descricao">Chá preto, xarope de frutas vermelhas, folhas de manjericão, água com gás e gelo.</p>
+            <!-- Produto: Chá Hortelã-Gengibre -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CHÁ HORTELÃ-GENGIBRE</span>
@@ -317,6 +375,7 @@
                 <span class="preco">R$ 13,00</span>
             </div>
             <p class="descricao">Chá de hortelã, xarope de gengibre, limão, água com gás e gelo.</p>
+            <!-- Produto: Chá Frutas Vermelhas -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CHÁ FRUTAS VERMELHAS</span>
@@ -325,8 +384,11 @@
             </div>
             <p class="descricao">Chá frutas vermelhas, xarope de frutas vermelhas, morango, água com gás e gelo.</p>
         </section>
+
+        <!-- ======= CAFÉS FILTRADOS ======= -->
         <section class="hidden" id="7">
             <h1>Cafés Filtrados</h1>
+            <!-- Produto: Koar -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">KOAR</span>
@@ -334,6 +396,7 @@
                 <span class="preco">R$ 12,50</span>
             </div>
             <p class="descricao">O método brasileiro de fazer café.</p>
+            <!-- Produto: Hario V 60 -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">HARIO V 60</span>
@@ -341,6 +404,7 @@
                 <span class="preco">R$ 13,00</span>
             </div>
             <p class="descricao">O café asiático querido dos baristas do mundo.</p>
+            <!-- Produto: Prensa Francesa -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">PRENSA FRANCESA</span>
@@ -348,6 +412,7 @@
                 <span class="preco">R$ 12,00</span>
             </div>
             <p class="descricao">Método mais usado, vindo da França.</p>
+            <!-- Produto: Clever -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CLEVER</span>
@@ -355,6 +420,7 @@
                 <span class="preco">R$ 12,50</span>
             </div>
             <p class="descricao">A cafeteira chinesa que faz por infusão e percolação.</p>
+            <!-- Produto: Chemex -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CHEMEX</span>
@@ -362,6 +428,7 @@
                 <span class="preco">R$ 12,00</span>
             </div>
             <p class="descricao">Método alemão que tem lugar cativo no Museu de Arte Moderna de Nova Yorque.</p>
+            <!-- Produto: Kalita -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">KALITA</span>
@@ -369,6 +436,7 @@
                 <span class="preco">R$ 13,00</span>
             </div>
             <p class="descricao">Mais uma invenção japonesa que faz um cafezão.</p>
+            <!-- Produto: Café Turco -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">CAFÉ E TURCO</span>
@@ -376,6 +444,7 @@
                 <span class="preco">R$ 13,00</span>
             </div>
             <p class="descricao">Maneira milenar de fazer café.</p>
+            <!-- Produto: Aeropress -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">AEROPRESS</span>
@@ -383,7 +452,7 @@
                 <span class="preco">R$ 12,00</span>
             </div>
             <p class="descricao">Um brinquedo americano.</p>
-
+            <!-- Produto: Xicrona de Café Especial -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">XICRONA DE CAFÉ ESPECIAL</span>
@@ -392,8 +461,11 @@
             </div>
             <p class="descricao">170 ml de americano para você se deliciar.</p>
         </section>
+
+        <!-- ======= SOBREMESAS ======= -->
         <section class="hidden" id="9">
             <h1>Sobremesas</h1>
+            <!-- Produto: Bolo do Dia -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">BOLO DO DIA</span>
@@ -401,6 +473,7 @@
                 <span class="preco">R$ 12,00</span>
             </div>
             <p class="descricao">Consultar sabores</p>
+            <!-- Produto: Brownie -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">BROWNIE</span>
@@ -408,6 +481,7 @@
                 <span class="preco">R$ 14,00</span>
             </div>
             <p class="descricao">OPÇÕES: Trufado ou com bola de sorvete</p>
+            <!-- Produto: Cocada Cremosa -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">COCADA CREMOSA</span>
@@ -415,6 +489,7 @@
                 <span class="preco">R$ 18,00</span>
             </div>
             <p class="descricao">Com sorvete de creme e lascas de chocolate</p>
+            <!-- Produto: Cookie -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">COOKIE</span>
@@ -422,6 +497,7 @@
                 <span class="preco">R$ 8,00</span>
             </div>
             <p class="descricao">Deliciosos e autorais, com chocolate meio amargo, tradicional ou red</p>
+            <!-- Produto: Waffles -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">WAFFLES</span>
@@ -430,10 +506,13 @@
             </div>
             <p class="descricao">OPÇÃO 1: Sorvete e calda de chocolate;<br> OPÇÃO 2: Morango e avelã;</p>
         </section>
-
     </main>
+
+    <!-- =======================
+         SCRIPTS JAVASCRIPT
+    ======================== -->
+    <script src="js/script.js"></script>
+    <script src="js/nav-interativa.js"></script>
 </body>
-<script src="js/script.js"></script>
-<script src="js/nav-interativa.js"></script>
 
 </html>
