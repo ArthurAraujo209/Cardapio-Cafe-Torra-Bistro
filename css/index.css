@@ -169,13 +169,18 @@ nav {
     background-color: #1e2d18;
     height: 80px;
     z-index: 999;
+
+    gap: 16px;          /* espaço entre os links */
+    overflow-x: auto;   /* permite rolar pros lados */
+    white-space: nowrap;/* impede quebra de linha */
+    scrollbar-width: none; /* esconde a barra no Firefox */
 }
 
 /* LOGO DO NAV */
 .foto-menu {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 120%;
     transform: translate(-50%, -120%);
     z-index: 1001;
 }
@@ -328,6 +333,10 @@ main {
 /* SCROLLBAR ESTILIZADA */
 
 
+nav::-webkit-scrollbar {
+  display: none; /* esconde a barra no Chrome/Safari */
+}
+
 
 
 
@@ -377,6 +386,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 36px;
     text-align: left;
     margin-top: 20px;
+    margin-right: 10px;
 }
 
 .descricao {
@@ -484,7 +494,6 @@ body::-webkit-scrollbar-thumb {
     nav {
         margin-top: 55px;
         height: 45px;
-        flex-wrap: wrap;
         gap: 2px;
         padding: 2px 2px;
     }
@@ -493,7 +502,7 @@ body::-webkit-scrollbar-thumb {
         margin: 2px;
     }
     .foto-menu {
-        top: -50%;
+        top: 70%;
         left: 50%;
         transform: translate(-50%, -60%);
     }
