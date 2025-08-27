@@ -7,3 +7,13 @@ body {
     backdrop-filter: blur(15px);
     font-family: Arial, sans-serif;
 }
+
+@media (max-width: 900px) {
+    body {
+        background-image: url('../img/foto\ de\ fundo\ Torra.jpg');
+    }
+}
+
+@media (max-width: 600px) {
+
+}
