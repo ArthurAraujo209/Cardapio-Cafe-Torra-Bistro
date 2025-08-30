@@ -614,3 +614,43 @@ body::-webkit-scrollbar-thumb {
     color: #d6993f;
     padding-top: 5px;
 }
+
+
+
+/* Responsivo para telas pequenas */
+@media (max-width: 1000px) {
+    .serve div h3 {
+        font-size: 16px;
+    }
+
+    .serve div img {
+        width: 30px;
+        margin: -10px;
+        
+    }
+
+    .serve {
+        width: 90%;
+        gap: 0px;
+    }
+
+    .preco {
+        font-size: 10px;
+    }
+    .serve1{
+        gap: 80px;
+        
+    }
+    .serve1 h3{
+        margin-top: -10px;
+       margin-right: 10px;
+    }
+    .serve2{
+        gap: 80px;
+        margin-left: 20px;
+    }
+    .serve2 h3{
+        margin-top: -10px;
+       
+    }
+}
