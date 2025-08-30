@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Torra Café-Bistrô</title>
 
+    <link rel="icon" href="img/logo do torra.jpg" type="image/x-icon">
+
     <!-- CSS principal -->
     <link rel="stylesheet" href="css/index.css">
 
@@ -17,7 +19,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-        <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -39,7 +41,7 @@
             <a href="#6" class="nav-item">Chás Gelados</a>
             <a href="#7" class="nav-item">Cafés Filtrados</a>
             <a href="#8" class="nav-item">Entradas</a>
-            <a href="#9" class="nav-item">Para não sair da dieta</a> 
+            <a href="#9" class="nav-item">Para não sair da dieta</a>
             <a href="#10" class="nav-item">Sanduíches</a>
             <a href="#11" class="nav-item">Refeições</a>
             <a href="#12" class="nav-item">Outras</a>
@@ -127,6 +129,14 @@
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">ICED CARAMELO</span>
+                <span class="pontinhos"></span>
+                <span class="preco">R$ 14,00</span>
+            </div>
+            <p class="descricao">Espresso, caramelo doce, leite espumado e gelo</p>
+
+            <div class="produto">
+                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
+                <span class="nome">ICED CHOCOLATE</span>
                 <span class="pontinhos"></span>
                 <span class="preco">R$ 14,00</span>
             </div>
@@ -222,17 +232,11 @@
             </div>
             <p class="descricao"></p>
             <!-- Produto: Coca-Cola -->
-            <div class="produto">
-                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
-                <span class="nome">COCA-COLA</span>
-                <span class="pontinhos"></span>
-                <span class="preco">R$ 6,50</span>
-            </div>
-            <p class="descricao">Lata 350ml.</p>
+
             <!-- Produto: H2O -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
-                <span class="nome">H2O</span>
+                <span class="nome">H2O (Limoneto)</span>
                 <span class="pontinhos"></span>
                 <span class="preco">R$ 7,90</span>
             </div>
@@ -242,17 +246,45 @@
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">SUCO DE LARANJA (Copo)</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 8,00</span>
+                <span class="preco">R$ 8,90</span>
             </div>
-            <p class="descricao">Copo- 350 ml</p>
+            <p class="descricao">Copo - 350 ml</p>
             <!-- Produto: Suco de Laranja (Jarra) -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">SUCO DE LARANJA (Jarra)</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 15,00</span>
+                <span class="preco">R$ 16,90</span>
             </div>
             <p class="descricao">Jarra</p>
+            <h2>Refrigerantes:</h2>
+
+            <div class="refri">
+                <div class="produto">
+                    <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
+                    <span class="nome">COCA-COLA</span>
+                    <span class="pontinhos"></span>
+                    <span class="preco">R$ 6,50</span>
+                </div>
+                <p class="descricao">Lata 350ml.</p>
+                <div class="produto">
+                    <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
+                    <span class="nome">COCA-COLA ZERO</span>
+                    <span class="pontinhos"></span>
+                    <span class="preco">R$ 6,50</span>
+                </div>
+                <p class="descricao">Lata 350ml.</p>
+                <div class="produto">
+                    <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
+                    <span class="nome">Guaraná</span>
+                    <span class="pontinhos"></span>
+                    <span class="preco">R$ 6,50</span>
+                </div>
+                <p class="descricao">Lata 350ml.</p>
+            </div>
+        </section>
+        <section class="hidden" id="4">
+            <h1>Bebidas Alcóolicas</h1>
             <!-- Produto: Dose de Bebida Alcóolica -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
@@ -260,15 +292,10 @@
                 <span class="pontinhos"></span>
                 <span class="preco">R$ 18,00</span>
             </div>
-            <p class="descricao">Wisky (Jamerson, Old Parr), Vodka (Absoluta, Finlandia), Amarula, Campari.</p>
-            <!-- Produto: Licor 43 -->
-            <div class="produto">
-                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
-                <span class="nome">LICOR 43</span>
-                <span class="pontinhos"></span>
-                <span class="preco">R$ 23,00</span>
-            </div>
-            <p class="descricao">Dose</p>
+            <p class="descricao">Campari. <br> Whisky Old Parr. <br> Whisky ballantines. <br> Vodka Smirnoff. <br> Vodka
+                Absolut.</p>
+
+
             <!-- Produto: Cerveja Heineken -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
@@ -277,14 +304,7 @@
                 <span class="preco">R$ 12,00</span>
             </div>
             <p class="descricao">Long neck.</p>
-            <!-- Produto: Cerveja Corona -->
-            <div class="produto">
-                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
-                <span class="nome">CERVEJA CORONA</span>
-                <span class="pontinhos"></span>
-                <span class="preco">R$ 12,00</span>
-            </div>
-            <p class="descricao">Long neck.</p>
+
         </section>
 
         <!-- ======= DRINKS ======= -->
@@ -298,14 +318,6 @@
                 <span class="preco">R$ 11,00</span>
             </div>
             <p class="descricao">Cachaça (ou vodka), limão, gelo, xarope de açucar</p>
-            <!-- Produto: Carajillo -->
-            <div class="produto">
-                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
-                <span class="nome">CARAJILLO</span>
-                <span class="pontinhos"></span>
-                <span class="preco">R$ 23,90</span>
-            </div>
-            <p class="descricao">Espresso, licor 43 e gelo.</p>
             <!-- Produto: Clericot -->
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
@@ -391,6 +403,16 @@
                 <span class="preco">R$ 13,00</span>
             </div>
             <p class="descricao">Chá frutas vermelhas, xarope de frutas vermelhas, morango, água com gás e gelo.</p>
+
+            <div class="produto">
+                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
+                <span class="nome">CHÁ MATTE-LARANJA</span>
+                <span class="pontinhos"></span>
+                <span class="preco">R$ 13,00</span>
+            </div>
+            <p class="descricao">Chá Matte, xarope de laranja, água com gás e gelo.</p>
+
+            <h3>Adicional - Dose de Vodka: R$ 7,00</h3>
         </section>
 
         <!-- ======= CAFÉS FILTRADOS ======= -->
@@ -468,6 +490,7 @@
                 <span class="preco">R$ 6,00</span>
             </div>
             <p class="descricao">170 ml de americano para você se deliciar.</p>
+            <h3>Exeto o <b>Aeropress</b>, todos os métodos são entregues em jarras de 300ml</h3>
         </section>
 
         <section class="hidden" id="8">
@@ -477,7 +500,7 @@
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">BATATA FRITA</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 11,90</span>
+                <span class="preco">R$ 13,00</span>
             </div>
             <p class="descricao">(250 g) Acompanha molho de churrasco</p>
 
@@ -485,7 +508,7 @@
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">BOLINHOS DE CARNE</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 19,90</span>
+                <span class="preco">R$ 22,00</span>
             </div>
             <p class="descricao">(5 unidades)</p>
 
@@ -496,9 +519,9 @@
                 <span class="preco">R$ 23,00</span>
             </div>
             <p class="descricao">
+                (5 unidades) <br>
                 Opção 1: caprese com queijo do reino, tomate confit<br>
                 Opção 2: camarão, fonduta de parmesão<br>
-                Opção 3: bacalhau, pasta de azeitona, azeite
             </p>
 
             <div class="produto">
@@ -529,23 +552,16 @@
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">PANELINHA FILEZINHO</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 26,90</span>
+                <span class="preco">R$ 28,90</span>
             </div>
             <p class="descricao">Ao molho vermelho, gratinado com queijo. Acompanha pão italiano</p>
 
-            <div class="produto">
-                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
-                <span class="nome">PANELINHA FILE AO MOLHO MADEIRA</span>
-                <span class="pontinhos"></span>
-                <span class="preco">R$ 28,00</span>
-            </div>
-            <p class="descricao">Acompanha pão italiano</p>
 
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">PASTEIZINHOS DE BACALHAU</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 19,90</span>
+                <span class="preco">R$ 22,00</span>
             </div>
             <p class="descricao">(5 unidades)</p>
 
@@ -553,9 +569,27 @@
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">TÁBUA DE FRIOS</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 39,90</span>
+                <span class="preco">R$ 42,00</span>
             </div>
             <p class="descricao">Mix de queijos, castanhas, azeitonas, croutons, geleia de pimenta, fruta</p>
+
+            <div class="produto">
+                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
+                <span class="nome">CALDINHO ALHO-PORÓ + BACON</span>
+                <span class="pontinhos"></span>
+                <span class="preco">R$ 18,00</span>
+            </div>
+            <p class="descricao">(Acompanha Torradas)</p>
+
+            <div class="produto">
+                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
+                <span class="nome">CALDINHO JERIMUM + BACON</span>
+                <span class="pontinhos"></span>
+                <span class="preco">R$ 18,00</span>
+            </div>
+            <p class="descricao">(Acompanha Torradas)</p>
+
+
         </section>
 
         <section class="hidden" id="9">
@@ -568,14 +602,6 @@
                 <span class="preco">R$ 21,00</span>
             </div>
             <p class="descricao">Frango grelhado, croutons, molho caesar, parmesão</p>
-
-            <div class="produto">
-                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
-                <span class="nome">MIX DE FOLHAS COM LASCAS DE PEIXE</span>
-                <span class="pontinhos"></span>
-                <span class="preco">R$ 24,00</span>
-            </div>
-            <p class="descricao">Peixe grelhado, croutons, azeite</p>
 
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
@@ -633,7 +659,7 @@
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">TALHARIM À CARBONARA</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 28,00</span>
+                <span class="preco">R$ 32,00</span>
             </div>
             <p class="descricao">Molho carbonara tradicional com bacon, ovos e queijo parmesão</p>
 
@@ -641,7 +667,7 @@
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">TALHARIM - CAMARÃO AO BECHAMEL</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 29,00</span>
+                <span class="preco">R$ 30,00</span>
             </div>
             <p class="descricao">Camarões selados no azeite, molho bechamel finalizado com parmesão</p>
 
@@ -689,35 +715,51 @@
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">LASANHA À BOLONHESA</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 34,90</span>
+                <span class="preco">R$ 38,00</span>
             </div>
             <p class="descricao">Com carne, molho sugo e queijo mussarela</p>
+            <div class="serve">
+                <div>
+                    <h3>Serve até</h3>
+                    <i><img src="img/user (1).png" alt=""></i>
+                    <i><img src="img/friends (1).png" alt=""></i>
+                </div>
+            </div>
 
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">LASANHA DE FRANGO</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 34,90</span>
+                <span class="preco">R$ 38,00</span>
             </div>
             <p class="descricao">Com frango, molho branco e queijo mussarela</p>
+            <div class="serve">
+                <div>
+                    <h3>Serve até</h3>
+                    <i><img src="img/user (1).png" alt=""></i>
+                    <i><img src="img/friends (1).png" alt=""></i>
+                </div>
+            </div>
 
             <h2>Parmegianas:</h2>
 
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">PARMEGIANA DE CARNE</span>
-                <span class="pontinhos"></span>
-                <span class="preco">R$ 34,00</span>
             </div>
             <p class="descricao">Acompanha arroz ou espaguete e batata frita</p>
-
-            <div class="produto">
-                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
-                <span class="nome">PARMEGIANA DE FRANGO</span>
-                <span class="pontinhos"></span>
-                <span class="preco">R$ 32,00</span>
-            </div>
-            <p class="descricao">Acompanha arroz ou espaguete e batata frita</p>
+            <span class="preco">
+                <div class="serve">
+                    <div>
+                        <i><img src="img/user (1).png" alt=""></i>
+                        <h3>R$ 37,90</h3>
+                    </div>
+                    <div>
+                        <i><img src="img/friends (1).png" alt=""></i>
+                        <h3>R$ 69,90</h3>
+                    </div>
+                </div>
+            </span>
 
             <h2>Risotos:</h2>
 
@@ -725,7 +767,7 @@
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">RISOTO AO POMODORO</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 32,00</span>
+                <span class="preco">R$ 36,00</span>
             </div>
             <p class="descricao">Filezinho puxado na manteiga e queijo parmesão</p>
 
@@ -741,7 +783,7 @@
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">RISOTO DE BACALHAU</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 36,00</span>
+                <span class="preco">R$ 42,00</span>
             </div>
             <p class="descricao">Lascas de bacalhau, molho branco, finalizado com parmesão</p>
 
@@ -749,13 +791,18 @@
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
                 <span class="nome">RISOTO FILEZINHO AO MOLHO MADEIRA</span>
                 <span class="pontinhos"></span>
-                <span class="preco">R$ 34,00</span>
+                <span class="preco">R$ 38,00</span>
             </div>
             <p class="descricao">Filezinho ao molho madeira, finalizado com parmesão</p>
-        </section>
 
-        <section class="hidden" id="12">
-            <h1>Outras</h1>
+            <div class="produto">
+                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
+                <span class="nome">RISOTO MEDALÃO AO MOLHO MADEIRA</span>
+                <span class="pontinhos"></span>
+                <span class="preco">R$ 56,00</span>
+            </div>
+            <p class="descricao">Medalhão de filé mignon ao molho madeira, finalizado com parmesão</p>
+            <h2>Outras:</h2>
 
             <div class="produto">
                 <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
@@ -764,14 +811,6 @@
                 <span class="preco">R$ 24,00</span>
             </div>
             <p class="descricao">Com carne de sol, creme de jerimum, queijo coalho e couve frito</p>
-
-            <div class="produto">
-                <img class="foto-pequena" src="img/lgo-simples-amarela.png" alt="">
-                <span class="nome">BATATA MIL FOLHAS</span>
-                <span class="pontinhos"></span>
-                <span class="preco">R$ 42,00</span>
-            </div>
-            <p class="descricao">Com medalhão de carne, fonduta de parmesão e legumes</p>
         </section>
 
         <!-- ======= SOBREMESAS ======= -->
@@ -826,47 +865,31 @@
 
 
         <footer>
-			<h1>Torra Café Bistrô</h1>
+
+            <h1>Torra Café Bistrô</h1>
             <ul>
-                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./index.html">Início</a></li>
                 <li><a href="#1">Cardápio</a></li>
                 <li><a href="./desenvolvimento.html">Sobre Nós</a></li>
             </ul>
             <ul>
-                <li><a target="_blank" href="https://www.instagram.com/torracafebistro"><img width="48" height="48" src="img/icons8-instagram-48.png" alt="instagram-new--v1"/></a></li>
-                <li><a target="_blank" href="https://wa.me/558399371941"><img width="48" height="48" src="img/icons8-whatsapp-48.png" alt="whatsapp--v1"/></a></li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/torracafebistro">
+                        <img width="32" height="32" src="img/icons8-instagram-48.png" alt="Instagram do Café">
+                    </a>
+                </li>
             </ul>
             <p>© 2025 Torra Café Bistrô - Todos os direitos reservados.</p>
-            <div class="container">
 
-       
-
-        <div class="body">
-            <div class="card">
-                <div class="slide slide1">
-                    <div class="content">
-                        <div class="icon">
-                            <i><img src="./img/foto arthur dev.png" alt=""></i>
-                            <p style="margin-top: 5px; font-size: 20px;">Clique aqui!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide slide2">
-                    <div class="content">
-                        <h3>
-                            Olá, eu sou o Arthur!
-                        </h3>
-                        <p>Desenvolvedor <span class="azul">Front-End</span></p>
-                        <a target="_blank" href="https://www.instagram.com/arthur.araujo_dev" class="btn"><img class="foto-instagram-arthur" src="./img/icons8-instagram-48.png" alt=""></a>
-                    </div>
-                </div>
+            <div class="assinatura">
+                <p>Desenvolvido por <strong>Arthur Araújo</strong> 💻</p>
+                <a target="_blank" href="https://www.instagram.com/arthur.araujo_dev">
+                    <img src="./img/icons8-instagram-48.png" alt="Instagram Arthur" width="32" height="32">
+                </a>
             </div>
-            
-            
-                </div>
-        </div>
+        </footer>
 
-		</footer>
+
 
     </main>
 

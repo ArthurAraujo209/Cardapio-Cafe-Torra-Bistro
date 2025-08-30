@@ -586,3 +586,31 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
 }
 }
+
+.refri{
+    margin-left: 60px;
+}
+
+.serve{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 160px;
+    margin-left: 20px;
+}
+.serve img{
+    width: 50px;
+}
+
+.serve div{
+    display: flex;
+    gap: 30px;
+}
+
+.serve h3{
+    margin-top: 0px;
+    font-size: 28px;
+    color: #d6993f;
+    padding-top: 5px;
+}
