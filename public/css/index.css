@@ -283,6 +283,12 @@ h3 {
     color: white;
     margin-top: 20px;
 }
+.centro h2{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-style: italic;
+}
 
 .botao {
     display: flex;
@@ -411,7 +417,7 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
   margin: 0 10px;
   transition: color 0.3s;
-      transition: 200ms;
+  transition: 200ms;
 }
 
 .nav-item.active {
@@ -425,8 +431,100 @@ body::-webkit-scrollbar-thumb {
     max-width: 80px; /* alterado de width para max-width */
     width: 100%;
 }
+.texto p{
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.refri{
+    margin-left: 60px;
+}
+
+.serve{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 160px;
+    margin-left: 20px;
+}
+.serve img{
+    width: 50px;
+}
+
+.serve div{
+    display: flex;
+    gap: 30px;
+}
+
+.serve h3{
+    margin-top: 0px;
+    font-size: 28px;
+    color: #d6993f;
+    padding-top: 5px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto img{
+    width: 40%;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.texto p{
+    margin-top: 30px;
+    width: 90%;
+}
+.la-em-baixo h2{
+    color: #fff;
+}
+
 
 /* RESPONSIVIDADE */
+/* Responsivo para telas pequenas */
+@media (max-width: 1000px) {
+    .refri{
+        margin-left: 20px;
+    }
+    .serve div h3 {
+        font-size: 16px;
+    }
+
+    .serve div img {
+        width: 30px;
+        margin: -10px;
+        
+    }
+
+    .serve {
+        width: 90%;
+        gap: 0px;
+    }
+
+    .preco {
+        font-size: 10px;
+    }
+    .serve1{
+        gap: 80px;
+        
+    }
+    .serve1 h3{
+        margin-top: -10px;
+       margin-right: 10px;
+    }
+    .serve2{
+        gap: 80px;
+        margin-left: 20px;
+    }
+    .serve2 h3{
+        margin-top: -10px;
+       
+    }
+}
 @media (max-width: 900px) {
     header {
         height: 90px;
@@ -485,9 +583,27 @@ body::-webkit-scrollbar-thumb {
     .foto-pequena {
         max-width: 10%;
     }
+    .texto img{
+        width: 60%;
+    }
+    .texto p{
+        font-size: 20px;
+    }
+    .la-em-baixo h2{
+        text-align: center;
+    }
 }
 
 @media (max-width: 600px) {
+    .texto img{
+        width: 70%;
+    }
+    .texto p{
+        font-size: 15px;
+    }
+    .la-em-baixo h2{
+        text-align: center;
+    }
     header {
         height: 60px;
     }
@@ -585,72 +701,5 @@ body::-webkit-scrollbar-thumb {
     .centro h1 {
     text-align: center;
 }
-}
 
-.refri{
-    margin-left: 60px;
-}
-
-.serve{
-    margin-top: 10px;
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    gap: 160px;
-    margin-left: 20px;
-}
-.serve img{
-    width: 50px;
-}
-
-.serve div{
-    display: flex;
-    gap: 30px;
-}
-
-.serve h3{
-    margin-top: 0px;
-    font-size: 28px;
-    color: #d6993f;
-    padding-top: 5px;
-}
-
-
-
-/* Responsivo para telas pequenas */
-@media (max-width: 1000px) {
-    .serve div h3 {
-        font-size: 16px;
-    }
-
-    .serve div img {
-        width: 30px;
-        margin: -10px;
-        
-    }
-
-    .serve {
-        width: 90%;
-        gap: 0px;
-    }
-
-    .preco {
-        font-size: 10px;
-    }
-    .serve1{
-        gap: 80px;
-        
-    }
-    .serve1 h3{
-        margin-top: -10px;
-       margin-right: 10px;
-    }
-    .serve2{
-        gap: 80px;
-        margin-left: 20px;
-    }
-    .serve2 h3{
-        margin-top: -10px;
-       
-    }
 }
