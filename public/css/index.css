@@ -1,74 +1,113 @@
 .poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .poppins-extralight {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .poppins-extrabold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 .poppins-black {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .poppins-thin-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: italic;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .poppins-extralight-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: italic;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
 }
 
 .poppins-light-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: italic;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Poppins:ital@1&display=swap');
 
 .poppins-regular-italic {
   font-family: "Poppins", sans-serif;
@@ -76,35 +115,7 @@
   font-style: italic;
 }
 
-.poppins-medium-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
 
-.poppins-semibold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.poppins-bold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.poppins-extrabold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.poppins-black-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
 
 
 /* RESET */
@@ -170,10 +181,14 @@ nav {
     height: 80px;
     z-index: 999;
 
-    gap: 16px;          /* espaço entre os links */
-    overflow-x: auto;   /* permite rolar pros lados */
-    white-space: nowrap;/* impede quebra de linha */
-    scrollbar-width: none; /* esconde a barra no Firefox */
+    gap: 16px;
+    /* espaço entre os links */
+    overflow-x: auto;
+    /* permite rolar pros lados */
+    white-space: nowrap;
+    /* impede quebra de linha */
+    scrollbar-width: none;
+    /* esconde a barra no Firefox */
 }
 
 /* LOGO DO NAV */
@@ -283,11 +298,13 @@ h3 {
     color: white;
     margin-top: 20px;
 }
-.centro h2{
-    text-align: center;
+
+.centro h2 {
+    text-align: justify;
     color: #fff;
     font-size: 25px;
     font-style: italic;
+    text-indent: 2em;
 }
 
 .botao {
@@ -340,7 +357,8 @@ main {
 
 
 nav::-webkit-scrollbar {
-  display: none; /* esconde a barra no Chrome/Safari */
+    display: none;
+    /* esconde a barra no Chrome/Safari */
 }
 
 
@@ -374,9 +392,9 @@ body::-webkit-scrollbar-thumb {
 
 
 .produto {
-  display: flex;
-  align-items: center;
-  margin: 6px 0 2px 0;
+    display: flex;
+    align-items: center;
+    margin: 6px 0 2px 0;
 }
 
 
@@ -405,19 +423,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 .produto .pontinhos {
-  flex-grow: 1;
-  border-bottom: 5px dotted #d6993f;
-  margin: 0 10px;
-  height: 1px;
-  margin-top: 20px;
+    flex-grow: 1;
+    border-bottom: 5px dotted #d6993f;
+    margin: 0 10px;
+    height: 1px;
+    margin-top: 20px;
 }
 
 .nav-item {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  transition: color 0.3s;
-  transition: 200ms;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+    transition: 200ms;
 }
 
 .nav-item.active {
@@ -426,22 +444,24 @@ body::-webkit-scrollbar-thumb {
     transition: 200ms;
 }
 
-.foto-pequena{
+.foto-pequena {
     padding-top: 20px;
-    max-width: 80px; /* alterado de width para max-width */
+    max-width: 80px;
+    /* alterado de width para max-width */
     width: 100%;
 }
-.texto p{
+
+.texto p {
     color: #fff;
     font-size: 25px;
 }
 
 
-.refri{
+.refri {
     margin-left: 60px;
 }
 
-.serve{
+.serve {
     margin-top: 10px;
     display: flex;
     width: 100%;
@@ -449,37 +469,43 @@ body::-webkit-scrollbar-thumb {
     gap: 160px;
     margin-left: 20px;
 }
-.serve img{
+
+.serve img {
     width: 50px;
 }
 
-.serve div{
+.serve div {
     display: flex;
     gap: 30px;
 }
 
-.serve h3{
+.serve h3 {
     margin-top: 0px;
     font-size: 28px;
     color: #d6993f;
     padding-top: 5px;
 }
-.texto{
+
+.texto {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.texto img{
+.texto img {
     width: 40%;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.texto p{
+
+.texto p {
     margin-top: 30px;
     width: 90%;
+    text-align: justify;
+    text-indent: 2em;
 }
-.la-em-baixo h2{
+
+.la-em-baixo h2 {
     color: #fff;
 }
 
@@ -487,9 +513,10 @@ body::-webkit-scrollbar-thumb {
 /* RESPONSIVIDADE */
 /* Responsivo para telas pequenas */
 @media (max-width: 1000px) {
-    .refri{
+    .refri {
         margin-left: 20px;
     }
+
     .serve div h3 {
         font-size: 16px;
     }
@@ -497,7 +524,7 @@ body::-webkit-scrollbar-thumb {
     .serve div img {
         width: 30px;
         margin: -10px;
-        
+
     }
 
     .serve {
@@ -508,127 +535,160 @@ body::-webkit-scrollbar-thumb {
     .preco {
         font-size: 10px;
     }
-    .serve1{
+
+    .serve1 {
         gap: 80px;
-        
+
     }
-    .serve1 h3{
+
+    .serve1 h3 {
         margin-top: -10px;
-       margin-right: 10px;
+        margin-right: 10px;
     }
-    .serve2{
+
+    .serve2 {
         gap: 80px;
         margin-left: 20px;
     }
-    .serve2 h3{
+
+    .serve2 h3 {
         margin-top: -10px;
-       
+
     }
 }
+
 @media (max-width: 900px) {
     header {
         height: 90px;
     }
+
     nav {
         margin-top: 80px;
         height: 60px;
         padding: 6px 10px;
     }
+
     .foto-menu img {
         width: 65px;
         margin: 8px;
     }
+
     h1 {
         font-size: 32px;
         margin-top: -30px;
     }
+
     h2 {
         font-size: 24px;
     }
-    h3, .descricao {
+
+    h3,
+    .descricao {
         font-size: 18px;
     }
+
     .produto .nome,
     .produto .preco {
         font-size: 24px;
     }
+
     .folha {
         width: 220px;
         left: 10px;
         bottom: 10px;
     }
+
     .logolema {
         width: 170px;
         right: 10px;
         bottom: 10px;
     }
+
     section {
         padding: 30px 8px;
     }
+
     .botao {
         font-size: 26px;
         height: 60px;
         width: 180px;
         padding: 8px 12px;
     }
+
     .botao:hover {
         width: 120px;
         height: 40px;
         font-size: 18px;
     }
+
     .centro img {
         width: 250px;
     }
 
+    .centro h2 {
+        font-size: 17px;
+        margin: 10px;
+    }
+
+
     .foto-pequena {
         max-width: 10%;
     }
-    .texto img{
+
+    .texto img {
         width: 60%;
     }
-    .texto p{
+
+    .texto p {
         font-size: 20px;
     }
-    .la-em-baixo h2{
+
+    .la-em-baixo h2 {
         text-align: center;
     }
 }
 
 @media (max-width: 600px) {
-    .texto img{
+    .texto img {
         width: 70%;
     }
-    .texto p{
+
+    .texto p {
         font-size: 15px;
     }
-    .la-em-baixo h2{
+
+    .la-em-baixo h2 {
         text-align: center;
     }
+
     header {
         height: 60px;
     }
+
     nav {
         margin-top: 55px;
         height: 45px;
         gap: 2px;
         padding: 2px 2px;
     }
+
     .foto-menu img {
         width: 45px;
         margin: 2px;
     }
+
     .foto-menu {
         top: 70%;
         left: 50%;
         transform: translate(-50%, -60%);
     }
 
-    .foto-pequena{
-    padding-top: 10px;
-    max-width: 10%;
+    .foto-pequena {
+        padding-top: 10px;
+        max-width: 10%;
     }
 
-    .primeira-sessao{
+    .primeira-sessao {
         margin-top: 35%;
     }
 
@@ -637,69 +697,89 @@ body::-webkit-scrollbar-thumb {
         margin-top: -10px;
         margin-left: 5px;
     }
+
     h2 {
         font-size: 16px;
         margin-top: 10px;
     }
-    h3, .descricao {
+
+    h3,
+    .descricao {
         font-size: 13px;
         margin-top: 6px;
     }
-    .produto, .descricao {
+
+    .produto,
+    .descricao {
         margin: 5px;
     }
+
     .produto .nome,
     .produto .preco {
         font-size: 14px;
         margin-top: 10px;
     }
+
     .produto .pontinhos {
         margin: 0 4px;
         border-bottom-width: 3px;
         margin-top: 10px;
     }
+
     .folha {
         width: 90px;
         left: 2px;
         bottom: 2px;
     }
+
     .logolema {
         width: 150px;
         right: 2px;
         bottom: 2px;
     }
+
     section {
         padding: 16px 2px;
     }
+
     .botao {
         font-size: 26px;
         height: 60px;
         width: 180px;
         padding: 4px 6px;
     }
+
     .botao:hover {
         width: 90px;
         height: 32px;
         font-size: 13px;
     }
+
     .centro img {
         width: 200px;
     }
+
     main {
         margin-top: 70px;
     }
-    nav a, .nav-item {
+
+    nav a,
+    .nav-item {
         font-size: 12px;
         margin: 0 2px;
     }
-    nav a:hover, .nav-item.active {
+
+    nav a:hover,
+    .nav-item.active {
         font-size: 15px;
     }
+
     .descricao {
         margin-left: 30px;
     }
+
     .centro h1 {
-    text-align: center;
-}
+        text-align: center;
+    }
 
 }
